@@ -12,9 +12,15 @@ To achieve an even smaller model (**2.5MB**), we have also replaced standard con
 
 ![squeezefaceposenet_networks_evaluated](https://user-images.githubusercontent.com/6042693/106066359-fb5af780-60fc-11eb-84c4-395cb895f25e.png)
 
+---
+
 ![squeezefaceposenet_evaluation_protocols](https://user-images.githubusercontent.com/6042693/106066493-30674a00-60fd-11eb-80da-7609b05595eb.png)
 
+---
+
 ![squeezefaceposenet_verification_results_vgg](https://user-images.githubusercontent.com/6042693/106066145-a0290500-60fc-11eb-95e8-86af004dec78.png)
+
+---
 
 # Requirements
   - Matlab software (tested in r2019b and r2020b)
