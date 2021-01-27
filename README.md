@@ -29,6 +29,6 @@ To achieve an even smaller model (**2.5MB**), we have also replaced standard con
   - See usage.m file
 
 # Pre-processing
-  - Input images must be of 113 x 113. We follow the tight crop of VGGFace2, with an extra 30% increase of the face bounding box, so some contextual information is added aound the face. See attached examples of how the input images should look like. 
+  - Input images must be of 113 x 113. We follow the tight crop of VGGFace2, with an extra 30% increase of the face bounding box, so some contextual information is added aound the face. See attached examples and the figures above to see how the input images should look like. 
   - The network is trained with images with some random displacement in horizontal and vertical dimensions, so it should be somehow tolerant to non-centered faces, althought it has not been tested (during testing, we only employ the center crop of the bounding box given by the MTCNN detector) See the paper for more details.
 
