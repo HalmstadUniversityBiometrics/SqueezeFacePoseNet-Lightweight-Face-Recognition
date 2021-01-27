@@ -8,6 +8,8 @@ The model is an implementation of the SqueezeNet CNN (**a very lightweight archi
 
 To achieve an even smaller model (**2.5MB**), we have also replaced standard convolution with depth-wise separable convolution (DWC) in all 3×3 filters, at the cost of a slight worse accuracy.
 
+![squeezefaceposenet_networks_evaluated](https://user-images.githubusercontent.com/6042693/106066359-fb5af780-60fc-11eb-84c4-395cb895f25e.png)
+
 # Requirements
   - Matlab software (tested in r2019b and r2020b)
 
