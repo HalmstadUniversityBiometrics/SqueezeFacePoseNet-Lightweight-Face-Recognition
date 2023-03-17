@@ -2,7 +2,9 @@
 
 
 
-This repository is the original implementation of the paper **[SqueezeFacePoseNet: Lightweight Face Verification Across Different Poses for Mobile Platforms](https://arxiv.org/abs/2007.08566)**, published at [ICPR 2020](https://www.micc.unifi.it/icpr2020/) (International Conference on Pattern Recognition) - [WMWB workshop](http://wmb2020.iapr-tc4.org/) (IAPR TC4 Workshop on Mobile and Wearable Biometrics 
+This repository is the original implementation of the paper **[SqueezeFacePoseNet: Lightweight Face Verification Across Different Poses for Mobile Platforms](https://arxiv.org/abs/2007.08566)**, published at [ICPR 2020](https://www.micc.unifi.it/icpr2020/) (International Conference on Pattern Recognition) - [WMWB workshop](http://wmb2020.iapr-tc4.org/) (IAPR TC4 Workshop on Mobile and Wearable Biometrics.
+
+Please consider citing this paper if you use in your research the models shared here.
 
 The model is an implementation of the SqueezeNet CNN (**a very lightweight architecture of just 4.41MB**) to carry out pose-invariant face recognition. It is trained on the MS-Celeb-1M and VGGFace2 databases (6.47M images in total). The training is done following the double fine-tuning implementation suggested in the paper [VGGFace2: A dataset for recognising faces across pose and age](https://arxiv.org/abs/1710.08092). 
 
